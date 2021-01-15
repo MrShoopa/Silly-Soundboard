@@ -1,0 +1,13 @@
+{
+	"discord.enabled": true,
+	"discord.detailsEditing": "Mashing a soundboard app",
+	"discord.detailsIdle": "Dead or doc diggin'?",
+	"discord.detailsDebugging": "Cranking up a soundboard app",
+	"discord.workspaceElapsedTime": true,
+	"workbench.colorCustomizations": {
+		"activityBar.activeBorder": "#00aeff",
+		"menu.foreground": "#3f82ff",
+		"titleBar.activeBackground": "#0c4966",
+		"titleBar.border": "#4c1d74"
+	}
+}

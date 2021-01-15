@@ -1,0 +1,83 @@
+{
+	"directories": {
+		"soundfile": "assets/audio/soundboard/",
+		"iconfile": "assets/icons/sounds/"
+	},
+	"sound_example": {
+		"title": "example title",
+		"filename": "example.mp3",
+		"icon": "example.svg",
+		"class": "explicitloud, explicit, loud, normal"
+	},
+	"sounds": [{
+			"title": "LET'S FUCKING GO",
+			"filename": "lets_fucking_goooo.mp3",
+			"icon": "letsfuckinggo.svg",
+			"class": "explicitloud"
+		},
+		{
+			"title": "what's gucci my n",
+			"filename": "whats_gucci_gorf.mp3",
+			"icon": "letsfuckinggo.svg",
+			"class": "explicit"
+		},
+		{
+			"title": "You Got Mail",
+			"filename": "AOl- You Got Mail.wav",
+			"class": "loud"
+		},
+		{
+			"title": "croissant",
+			"filename": "croissant sound.mp3",
+			"class": "normal"
+		},
+		{
+			"title": "Damn Son",
+			"filename": "Damn son, whered you find this-!.mp3",
+			"icon": "letsfuckinggo.svg",
+			"class": "explicitloud"
+		},
+		{
+			"title": "Air Horn",
+			"filename": "Air Horn Sound.mp3",
+			"icon": "",
+			"class": "loud"
+		},
+		{
+			"title": "Distorted Bass",
+			"filename": "Distorted Bass Boost.mp3",
+			"icon": "",
+			"class": "loud"
+		},
+		{
+			"title": "Hold Up",
+			"filename": "Nate Dog Hold Up.mp3",
+			"icon": "",
+			"class": ""
+		},
+		{
+			"title": "Smoke Green Erryday",
+			"filename": "Smoke Weed Everyday.mp3",
+			"icon": "",
+			"class": ""
+		},
+		{
+			"title": "Holy S**t",
+			"filename": "Unreal Tournament Holy Shit.wav",
+			"icon": "",
+			"class": "explicit"
+		},
+		{
+			"title": "Monster Kill",
+			"filename": "Unreal Tournament Monster Kill.mp3",
+			"icon": "",
+			"class": ""
+		},
+		{
+			"title": "Windows XP Error",
+			"filename": "windows critical stop.mp3",
+			"icon": "",
+			"class": ""
+		}
+	]
+}
