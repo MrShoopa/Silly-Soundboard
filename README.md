@@ -1,4 +1,4 @@
-# lets_go_soundboard
+# Random Soundboard
 
 A soundboard app made in Flutter featuring some of my favorite sound effects
 including those personal to me. This is also a cute little first Flutter app project.
