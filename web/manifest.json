@@ -1,11 +1,11 @@
 {
-    "name": "lets_go_soundboard",
-    "short_name": "lets_go_soundboard",
+    "name": "Shoopa Soundboard",
+    "short_name": "Shoopa Soundboard",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A simple soundboard featuring meme and personal sounds.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
