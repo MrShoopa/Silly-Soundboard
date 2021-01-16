@@ -1,0 +1,60 @@
+{
+	"version": "2.0.0",
+	"tasks": [{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"web",
+				"--web-renderer=auto",
+				"--release"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Build Web Release"
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"apk",
+				"release"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Build Android Release"
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"ios"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Build iOS Release"
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"macos"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Build MacOS Release"
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"install"
+			],
+			"problemMatcher": [],
+			"label": "Install Project"
+		}
+	]
+}

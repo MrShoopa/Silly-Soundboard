@@ -44,7 +44,7 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets: 
-    - assets/audio/
+    - assets/audio/soundboard/
 
     - assets/icons/sounds/
     
