@@ -7777,7 +7777,7 @@ p=q>>>8&255
 o=q&255
 q=P.az(q>>>24&255,(q>>>16&255)-50,p,o).a
 o=P.az(q>>>24&255,q>>>16&255,q>>>8&255,o-50).a
-r=P.az(o>>>24&255,o>>>16&255,p-50,o&255)}m=T.Rk(H.c([L.a0P(l,36),C.yY,L.f6(m.h(b,"title"),A.fH(n,n,n,n,n,n,n,n,n,n,n,16,n,n,n,n,!0,n,n,n,n,n,n))],t.Z),C.eU,C.d2,C.pu)
+r=P.az(o>>>24&255,o>>>16&255,p-50,o&255)}m=T.Rk(H.c([L.a0P(l,36),C.yY,L.f6(m.h(b,"title"),A.fH(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n))],t.Z),C.eU,C.d2,C.pu)
 return new M.oX(M.a0v(!1,r,n,n,n,100,n,n,C.o9,n,88,n,n,n,C.ch),new D.G0(new M.a_U(a,b),n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,m,new V.aT(0,20,0,15),n,n,C.K,n,!1,n,n,n),n)},
 a_U:function a_U(a,b){this.a=a
 this.b=b},
@@ -15200,7 +15200,7 @@ _.d=b
 _.e=c
 _.a=d},
 a_m:function(a,b,c){var s=null
-return T.Rk(H.c([L.f6(b,A.fH(s,s,a,s,s,s,s,s,s,s,s,16,s,s,s,s,!0,s,s,s,s,s,s)),L.f6(c,A.fH(s,s,a,s,s,s,s,s,s,s,s,16,s,s,s,s,!0,s,s,s,s,s,s))],t.fQ),C.eU,C.pt,C.jV)},
+return T.Rk(H.c([L.f6(b,A.fH(s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s)),L.f6(c,A.fH(s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s))],t.fQ),C.eU,C.pt,C.jV)},
 a_M:function(){var s=0,r=P.a8(t.z)
 var $async$a_M=P.a3(function(a,b){if(a===1)return P.a5(b,r)
 while(true)switch(s){case 0:s=2
@@ -54982,7 +54982,7 @@ return new D.E6(new U.a_d(),p,p,C.K,p,!1,new D.E7(n,o,p),p)})
 q($,"amA","a9S",function(){var p=null,o=V.a4f(0,20,0,0)
 return T.a5d(L.f6("Sound Color Code",A.fH(p,p,p,p,p,p,p,p,p,p,p,20,p,C.ck,p,p,!0,p,p,p,p,p,p)),o)})
 q($,"amG","a9V",function(){var p=null,o=V.a4f(0,20,0,10)
-return T.a5d(L.f6("If you have any requests shoot me an email! Happy to quickly add :)",A.fH(p,p,p,p,p,p,p,p,p,p,p,12,p,p,p,p,!0,p,p,p,p,p,p)),o)})
+return T.a5d(L.f6("If you have any sound requests shoot me an email! :)",A.fH(p,p,p,p,p,p,p,p,p,p,p,12,p,p,p,p,!0,p,p,p,p,p,p)),o)})
 q($,"amJ","a9X",function(){return X.Ul(C.S,null,C.hW,null,C.hW)})
 q($,"amC","a9T",function(){var p=C.hW.h(0,900)
 return X.Ul(C.G,C.hW.h(0,800),p,C.G,C.xu)})
