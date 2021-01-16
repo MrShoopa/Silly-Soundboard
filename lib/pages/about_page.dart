@@ -49,8 +49,8 @@ Row colorCodeLegendTextBar(
     Color colorCode, String colorName, String description) {
   return Row(
     children: [
-      new Text(colorName, style: TextStyle(color: colorCode, fontSize: 16.0)),
-      new Text(description, style: TextStyle(color: colorCode, fontSize: 16.0)),
+      new Text(colorName, style: TextStyle(color: colorCode)),
+      new Text(description, style: TextStyle(color: colorCode)),
     ],
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
   );
@@ -88,7 +88,7 @@ Padding colorCodeTitle = Padding(
 Padding extraInfo = Padding(
     padding: EdgeInsets.fromLTRB(0, 20, 0, 10),
     child: new Text(
-      'If you have any requests shoot me an email! Happy to quickly add :)',
+      'If you have any sound requests shoot me an email! :)',
       style: new TextStyle(
         fontSize: 12,
       ),

@@ -19,8 +19,9 @@ Widget soundButtonCreation(AudioPlayer audioPlayer, dynamic songObject) {
       buttonColor: determineSoundButtonColor(songObject['class'], darkMode),
       child: RaisedButton.icon(
           icon: Icon(icon, size: 36),
+
           padding: EdgeInsets.only(top: 20, bottom: 15),
-          label: Text(songObject['title'], style: TextStyle(fontSize: 16.0)),
+          label: Text(songObject['title'], style: TextStyle()),
           onPressed: () {
             audioPlayer
                 .play(globals.directories['soundfile'] + songObject['filename']);
