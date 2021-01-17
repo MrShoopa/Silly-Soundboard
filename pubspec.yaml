@@ -57,7 +57,7 @@ flutter:
   uses-material-design: true
 
   fonts:
-    - family:  MyFlutterApp
+    - family: MyFlutterApp
       fonts:
         - asset: assets/fonts/MyFlutterApp.ttf
 
