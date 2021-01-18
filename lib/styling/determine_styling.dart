@@ -2,14 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:lets_go_soundboard/styling/my_flutter_app_icons.dart';
 
 IconData determineCustomIcon(String text) {
+
   switch (text) {
-    case "LET'S FUCKING GO":
+    case "LET'S F*****G GO":
       return CustomIcons.letsfuckinggo;
     case "what's gucci my n":
       return CustomIcons.cat;
     default:
       return Icons.audiotrack;
   }
+
 }
 
 Color determineSoundButtonColor(String text, bool darker) {

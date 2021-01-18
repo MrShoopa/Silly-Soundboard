@@ -17,7 +17,7 @@ import 'components/redirect_button.dart';
 import 'components/sound_button.dart';
 import 'styling/stylized_texts.dart';
 
-String soundlistReference = "references/soundlist.json";
+String soundlistReference = "/references/soundlist.json";
 dynamic directories;
 dynamic _soundList;
 
@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> loadSoundReference() async {
-    var soundListString = await rootBundle.loadString(soundlistReference);
+    var soundListString = await DefaultAssetBundle.of(context).loadString(soundlistReference);
     _soundList = jsonDecode(soundListString);
     directories = _soundList['directories'];
     _soundList = _soundList['sounds'];
