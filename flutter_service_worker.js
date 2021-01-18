@@ -3,9 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "9ac773b6eb9ffeab12fd1ebe67e3fbe2",
+  "assets/AssetManifest.json": "741b3e7e63430ae768d6b42c1d670a5c",
 "assets/assets/audio/soundboard/air_horn.mp3": "28f8817f0e7a8634bb2164ceaaa6b2ee",
 "assets/assets/audio/soundboard/aol_you_got_mail.wav": "7a19b2c32e89a9bdcb694082234e461c",
+"assets/assets/audio/soundboard/Baku_Got_DAMN.mp3": "3338bebb7e4fad0b7f6b4b5efe2d4257",
 "assets/assets/audio/soundboard/croissant_sound.mp3": "4a413c8f20ecb45b882daf4026f03b0f",
 "assets/assets/audio/soundboard/damn_son.mp3": "a6b3b134de37ec2f55e934816916fbe9",
 "assets/assets/audio/soundboard/DISTORTED_Bass_Boost.mp3": "6465a8a4fbc7f0d1208065284d92d1de",
@@ -19,17 +20,17 @@ const RESOURCES = {
 "assets/assets/audio/soundboard/windows_critical_stop.mp3": "53d87475403c9a34131d5e7420920bcc",
 "assets/assets/fonts/MyFlutterApp.ttf": "500762435d6de2b8b75c8b6c5a3d6595",
 "assets/assets/icons/sounds/letsfuckinggo.svg": "861dee5dee6a28cd7ee07d6093165e46",
-"assets/assets/references/soundlist.json": "aaf78b544307f6ad43d8c3e863a87970",
+"assets/assets/references/soundlist.json": "b3cf72877fc5c9f05f4ccceaeea7ccd9",
 "assets/FontManifest.json": "1e2b2284e66a9e54db0bfe7ac4f8d5d6",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "fb80ee75c32dea894ab4a170895442c5",
+"assets/NOTICES": "9990fac24c7889d748b4a1a90a4738ef",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "16daa1e75c75abade096971827289f33",
 "icons/Icon-192.png": "698704cb92d9a515459cc6ee65d70342",
 "icons/Icon-512.png": "05c3c10cf7bb027464fae82f6ba90f12",
-"index.html": "c31be410b07c44a96c07fc43ad6ad6e9",
-"/": "c31be410b07c44a96c07fc43ad6ad6e9",
-"main.dart.js": "69e2d2a4b5a4fbe4d8cc603369d03a76",
+"index.html": "70093580e291f13eea40e66ebae9f7be",
+"/": "70093580e291f13eea40e66ebae9f7be",
+"main.dart.js": "043fca15f0c6780edf7805c352651d39",
 "manifest.json": "57e2b04b2a9b1384bc2c10657378f0e2",
 "version.json": "99d5daa2da2f7477513c22d4eb9287e9"
 };

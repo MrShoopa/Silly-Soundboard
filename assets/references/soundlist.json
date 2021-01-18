@@ -78,6 +78,11 @@
 			"filename": "lets_fucking_goooo.mp3",
 			"icon": "letsfuckinggo.svg",
 			"class": "explicitloud"
+		},
+		{
+			"title": "[Baku] got DAM",
+			"filename": "Baku_Got_DAMN.mp3",
+			"class": "explicitloud"
 		}
 	]
 }
