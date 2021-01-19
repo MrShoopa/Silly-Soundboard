@@ -17,7 +17,7 @@
 		},
 		{
 			"title": "BOI",
-			"filename": "jimmy_nuetron_BOI.mp3",
+			"filename": "jimmy_neutron_BOI.mp3",
 			"icon": "carl_wheezer.jpg"
 		},
 		{
@@ -115,12 +115,6 @@
 			"filename": "wrong-deepfried.mp3",
 			"icon": "trump_dump.png",
 			"class": "loud"
-		},
-		{
-			"title": "Trump - WRONG",
-			"filename": "wrong.mp3",
-			"icon": "trump_dump.png",
-			"class": ""
 		},
 		{
 			"title": "Crazy Frog - Ding",
