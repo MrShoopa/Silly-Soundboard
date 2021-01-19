@@ -16,6 +16,11 @@
 			"icon": "carl_wheezer.jpg"
 		},
 		{
+			"title": "BOI",
+			"filename": "jimmy_nuetron_BOI.mp3",
+			"icon": "carl_wheezer.jpg"
+		},
+		{
 			"title": "Hold Up",
 			"filename": "Nate_Dog_Hold_Up.mp3",
 			"icon": "nate_dog.jpg",
@@ -86,6 +91,48 @@
 			"filename": "Baku_Got_DAMN.mp3",
 			"icon": "baku.jpg",
 			"class": "explicitloud"
+		},
+		{
+			"title": "Trump - Have to Go",
+			"filename": "have-to-go.mp3",
+			"icon": "trump_dump.png",
+			"class": ""
+		},
+		{
+			"title": "Trump - You're Fired",
+			"filename": "youre_fired.mp3",
+			"icon": "trump_dump.png",
+			"class": ""
+		},
+		{
+			"title": "Trump - Wrong",
+			"filename": "wrong.mp3",
+			"icon": "trump_dump.png",
+			"class": ""
+		},
+		{
+			"title": "Trump - WRONG",
+			"filename": "wrong-deepfried.mp3",
+			"icon": "trump_dump.png",
+			"class": "loud"
+		},
+		{
+			"title": "Trump - WRONG",
+			"filename": "wrong.mp3",
+			"icon": "trump_dump.png",
+			"class": ""
+		},
+		{
+			"title": "Crazy Frog - Ding",
+			"filename": "Crazy_Frog_Ding.wav",
+			"icon": "crazy_frog.webp",
+			"class": ""
+		},
+		{
+			"title": "HEE HEE",
+			"filename": "hee_hee.mp3",
+			"icon": "michael_jackson.jpg",
+			"class": ""
 		}
 	]
 }
