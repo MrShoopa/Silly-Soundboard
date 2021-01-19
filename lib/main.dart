@@ -9,7 +9,7 @@ import 'dart:convert';
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/scheduler.dart';
 import 'package:lets_go_soundboard/styling/app_theme.dart';
 
 import 'components/main_soundboard_view.dart';
@@ -20,6 +20,10 @@ import 'styling/stylized_texts.dart';
 String soundlistReference = "/references/soundlist.json";
 dynamic directories;
 dynamic _soundList;
+bool darkMode =
+    SchedulerBinding.instance.window.platformBrightness == Brightness.dark
+        ? true
+        : false;
 
 void main() {
   runApp(MyApp());
@@ -61,7 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> loadSoundReference() async {
-    var soundListString = await DefaultAssetBundle.of(context).loadString(soundlistReference);
+    var soundListString =
+        await DefaultAssetBundle.of(context).loadString(soundlistReference);
     _soundList = jsonDecode(soundListString);
     directories = _soundList['directories'];
     _soundList = _soundList['sounds'];
@@ -135,12 +140,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: resultingView),
           ),
           floatingActionButton: FloatingActionButton(
-            onPressed: () => navigateToInfoPage(context),
-            tooltip: 'App Info and Guide',
-            child: const Icon(Icons.info),
-            foregroundColor: stylePrimaryTextColor(),
-            backgroundColor: stylePrimaryButtonColor()
-          ));
+              onPressed: () => navigateToInfoPage(context),
+              tooltip: 'App Info and Guide',
+              child: const Icon(Icons.info),
+              foregroundColor: stylePrimaryTextColor(),
+              backgroundColor: stylePrimaryButtonColor()));
     }
   }
 }

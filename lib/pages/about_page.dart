@@ -17,7 +17,7 @@ class AboutAppRoute extends StatelessWidget {
                   itemCount: colorButtonLegendNeo.length,
                   padding: EdgeInsets.all(20),
                   itemBuilder: (context, index) => Container(
-                      padding: EdgeInsets.all(2.5),
+                      padding: EdgeInsets.all(5),
                       child: Material(
                           elevation: 4.0,
                           borderRadius: BorderRadius.circular(5.0),
@@ -48,31 +48,14 @@ ListView colorButtonLegendView() {
 Row colorCodeLegendTextBar(
     Color colorCode, String colorName, String description) {
   return Row(
+    
     children: [
       new Text(colorName, style: TextStyle(color: colorCode)),
       new Text(description, style: TextStyle(color: colorCode)),
     ],
+    
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
   );
-}
-
-ElevatedButton emailButton = ElevatedButton.icon(
-  onPressed: () {
-    launchMailto();
-  },
-  icon: Icon(Icons.email),
-  label: Text('Email the developer'),
-);
-
-launchMailto() async {
-  final mailtoLink = Mailto(
-    to: ['joexvillegas@gmail.com'],
-    subject: 'Shoopa Soundboard App Suggestion',
-    body:
-        'Please explain your comments below and I will reach back to you in my free time, thanks :)',
-  );
-
-  await launch('$mailtoLink');
 }
 
 Padding colorCodeTitle = Padding(
@@ -93,3 +76,24 @@ Padding extraInfo = Padding(
         fontSize: 12,
       ),
     ));
+
+// Emailing functions
+
+ElevatedButton emailButton = ElevatedButton.icon(
+  onPressed: () {
+    launchMailto();
+  },
+  icon: Icon(Icons.email),
+  label: Text('Email the developer'),
+);
+
+launchMailto() async {
+  final mailtoLink = Mailto(
+    to: ['joexvillegas@gmail.com'],
+    subject: 'Shoopa Soundboard App Suggestion',
+    body:
+        'Please explain your comments below and I will reach back to you in my free time, thanks :)',
+  );
+
+  await launch('$mailtoLink');
+}
