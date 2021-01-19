@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
+    textTheme: GoogleFonts.nunitoTextTheme(),
     primarySwatch: Colors.cyan,
     primaryColor: Colors.cyan);
 
 ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
+    textTheme: GoogleFonts.nunitoTextTheme(
+      ThemeData(brightness: Brightness.dark).textTheme,
+    ),
     primarySwatch: darkCyan,
     primaryColor: Colors.cyan[900],
     buttonColor: Colors.cyan[800],
