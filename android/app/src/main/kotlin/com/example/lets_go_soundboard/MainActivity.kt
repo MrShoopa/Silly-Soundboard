@@ -1,4 +1,4 @@
-package com.example.lets_go_soundboard
+package com.example.shoopa_soundboard
 
 import io.flutter.embedding.android.FlutterActivity
 

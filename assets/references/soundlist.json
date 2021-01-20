@@ -1,7 +1,7 @@
 {
 	"directories": {
 		"soundfile": "assets/audio/soundboard/",
-		"iconfile": "icons/sounds/"
+		"iconfile": "assets/icons/sounds/"
 	},
 	"sound_example": {
 		"title": "example title",

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lets_go_soundboard/styling/stylized_texts.dart';
+import 'package:shoopa_soundboard/styling/stylized_texts.dart';
 
 List<Widget> soundboardViewGenerator(List<Widget> generatedChildren) {
   return [

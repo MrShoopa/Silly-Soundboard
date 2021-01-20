@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:lets_go_soundboard/pages/about_page.dart';
-import 'package:lets_go_soundboard/styling/app_theme.dart';
+import 'package:shoopa_soundboard/pages/about_page.dart';
+import 'package:shoopa_soundboard/styling/app_theme.dart';
 
 Widget aboutAppButtonCreation(BuildContext context) {
   return ButtonTheme(

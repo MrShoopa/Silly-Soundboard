@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lets_go_soundboard/styling/my_flutter_app_icons.dart';
+import 'package:shoopa_soundboard/styling/my_flutter_app_icons.dart';
 
 IconData determineCustomIcon(String text) {
   switch (text) {

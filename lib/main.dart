@@ -10,14 +10,14 @@ import 'dart:convert';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:lets_go_soundboard/styling/app_theme.dart';
+import 'package:shoopa_soundboard/styling/app_theme.dart';
 
 import 'components/main_soundboard_view.dart';
 import 'components/redirect_button.dart';
 import 'components/sound_button.dart';
 import 'styling/stylized_texts.dart';
 
-String soundlistReference = "/references/soundlist.json";
+String soundlistReference = "assets/references/soundlist.json";
 dynamic directories;
 dynamic _soundList;
 bool darkMode =

@@ -4,9 +4,10 @@ import '../main.dart' as globals;
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 
-import 'package:lets_go_soundboard/styling/determine_styling.dart';
+import 'package:shoopa_soundboard/styling/determine_styling.dart';
+
+import '../styling/app_theme.dart';
 
 Widget soundButtonCreation(AudioPlayer audioPlayer, dynamic songObject) {
   var iconDir = globals.directories['iconfile'] + songObject['icon'];
@@ -30,16 +31,31 @@ Widget soundButtonCreation(AudioPlayer audioPlayer, dynamic songObject) {
                 fit: BoxFit.cover),
           ),
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: SizedBox.expand(
-                child: Center(
-                    child: Text(songObject['title'],
-                        textAlign: TextAlign.center))),
-          ),
+              padding: const EdgeInsets.all(8.0),
+              child: SizedBox.expand(
+                  child: Center(
+                child: Text(songObject['title'],
+                    textAlign: TextAlign.center,
+                    style: TextStyle(shadows: <Shadow>[
+                      Shadow(
+                        offset: Offset(0.0, 00.0),
+                        blurRadius: 5.0,
+                        color: determineShadowColor(),
+                      )
+                    ])),
+              ))),
         ),
         onPressed: () {
-          audioPlayer
-              .play(globals.directories['soundfile'] + songObject['filename']);
+          audioPlayer.play(
+              "/" + globals.directories['soundfile'] + songObject['filename']);
+              //TODO: Shake phone on loud sound playback
         },
       ));
+}
+
+Color determineShadowColor() {
+  if (!darkMode)
+    return Color.fromARGB(255, 0, 0, 0);
+  else
+    return Color.fromARGB(255, 255, 255, 255);
 }
