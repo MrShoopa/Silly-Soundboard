@@ -36,19 +36,21 @@ Widget soundButtonCreation(AudioPlayer audioPlayer, dynamic songObject) {
                   child: Center(
                 child: Text(songObject['title'],
                     textAlign: TextAlign.center,
-                    style: TextStyle(shadows: <Shadow>[
-                      Shadow(
-                        offset: Offset(0.0, 00.0),
-                        blurRadius: 5.0,
-                        color: determineShadowColor(),
-                      )
-                    ])),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        shadows: <Shadow>[
+                          Shadow(
+                            offset: Offset(0.0, 00.0),
+                            blurRadius: 5.0,
+                            color: determineShadowColor(),
+                          )
+                        ])),
               ))),
         ),
         onPressed: () {
           audioPlayer.play(
               "/" + globals.directories['soundfile'] + songObject['filename']);
-              //TODO: Shake phone on loud sound playback
+          //TODO: Shake phone on loud sound playback
         },
       ));
 }
