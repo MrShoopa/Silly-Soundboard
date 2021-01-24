@@ -48,8 +48,8 @@ Widget soundButtonCreation(AudioPlayer audioPlayer, dynamic songObject) {
               ))),
         ),
         onPressed: () {
-          audioPlayer.play(
-              "/" + globals.directories['soundfile'] + songObject['filename']);
+          audioPlayer
+              .play(globals.directories['soundfile'] + songObject['filename']);
           //TODO: Shake phone on loud sound playback
         },
       ));
