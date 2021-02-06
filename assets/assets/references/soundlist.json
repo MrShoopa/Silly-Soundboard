@@ -127,6 +127,42 @@
 			"filename": "hee_hee.mp3",
 			"icon": "michael_jackson.jpg",
 			"class": ""
-		}
+		},
+		{
+			"title": "Oh baby a triple!",
+			"filename": "baby_a_tripple.mp3",
+			"icon": "mlg.webp",
+			"class": ""
+		},
+		{
+			"title": "BAZINGA",
+			"filename": "bazinga_1.mp3",
+			"icon": "bazinga.jpg",
+			"class": ""
+		},
+		{
+			"title": "BE GONE THOT",
+			"filename": "be_gone_thot.mp3",
+			"icon": "be_gone_thot.jpg",
+			"class": "loud"
+		},
+		{
+			"title": "Epic Crying",
+			"filename": "epic_crying.mp3",
+			"icon": "epic_crying.jpg",
+			"class": ""
+		},
+		{
+			"title": "IT'S LIT",
+			"filename": "its_lit.mp3",
+			"icon": "travis_scott.png",
+			"class": ""
+		},
+		{
+			"title": "YOU MUST DIE",
+			"filename": "you_must_die.mp3",
+			"icon": "zelda_cdi.jpg",
+			"class": ""
+		},
 	]
 }
